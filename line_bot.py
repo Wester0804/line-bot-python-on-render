@@ -1,4 +1,4 @@
-from flask_ngrok import run_with_ngrok   # colab 
+#from flask_ngrok import run_with_ngrok   # colab 
 from flask import Flask, request
 import json
 
@@ -12,5 +12,5 @@ def linebot():
     return 'OK'
 
 if __name__ == "__main__":
-    run_with_ngrok(app)        # colab 
+    #run_with_ngrok(app)        # colab 
     app.run()
